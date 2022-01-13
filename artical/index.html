@@ -18,18 +18,51 @@
 {"description":"禾肠的个人博客，采用Jekyll工具生成。","url":"http://localhost:4000/artical/","@type":"WebPage","headline":"我的博客","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="禾肠不想改变自己" /></head>
-<body><header class="header" role="banner" id="header">
+<body><link rel="stylesheet" href="/assets/loading.css">
+
+<div class="loading" id="loading">
+    <div class="loader8"></div>
+</div>
+
+<script>
+    var loading = document.getElementById('loading')
+        window.setTimeout(function(){
+            loading.classList.add('loading-out')
+        }, 600)
+</script>
+<style>
+    .loading{
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        background-color: rgba(3, 101, 100, 0.95);
+        z-index: 99999;
+    }
+    .loading-out{
+        transition: all .5s linear;
+        opacity:0;
+        z-index: -100;
+    }
+</style><header class="header" role="banner" id="header">
 
   <div class="header-container"><a class="header-title" rel="author" href="/">禾肠不想改变自己</a><nav class="header-nav">
-        <div class="header-nav-pc"><a class="page-link" href="/about/">关于我</a><a class="page-link" href="/artical/">我的博客</a><a class="page-link" href="/">首页</a></div>
-        <div class="header-nav-phone">
+        <div class="header-nav-pc"><a class="page-link" href="/">首页</a><a class="page-link" href="/artical/">我的博客</a><a class="page-link" href="/about/">关于我</a></div>
+        <div class="header-nav-phone" id="menu">
           <svg viewBox="0 0 18 15" width="18px" height="15px">
             <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
           </svg>
         </div>
       </nav></div>
 </header>
-<main class="page-content" aria-label="Content">
+<script>
+  window.onload = function() {
+    var menuElement = document.getElementById('menu')
+    menuElement.onclick = function() {
+      alert('sss')
+    }
+  }
+</script><main class="page-content" aria-label="Content">
+      <div class="wrapper">
         <article class="layout-page" id="post">
   <div class="layout-page-container">
     <header class="layout-page-header">
@@ -38,6 +71,281 @@
   
     <div class="layout-page-content">
       <ul class="artical"><li class="artical-card col-lg-3"><span class="post-meta">Jan 4, 2022</span>
+    <div class="artical-card-title">
+      <a class="post-link" href="/jekyll/update/2022/01/04/%E6%B5%8B%E8%AF%95%E7%9A%841%E7%9A%84%E5%89%AF%E6%9C%AC9.html">
+        测试!
+      </a>
+    </div>
+    <div class="three-line-ellipsis artical-card-intro"><h2 id="安装jekyll时遇到的问题">安装jekyll时遇到的问题</h2>
+</div>
+    <div class="artical-card-catagory">
+      分类
+    </div>
+  </li><li class="artical-card col-lg-3"><span class="post-meta">Jan 4, 2022</span>
+    <div class="artical-card-title">
+      <a class="post-link" href="/jekyll/update/2022/01/04/%E6%B5%8B%E8%AF%95%E7%9A%841%E7%9A%84%E5%89%AF%E6%9C%AC8.html">
+        测试!
+      </a>
+    </div>
+    <div class="three-line-ellipsis artical-card-intro"><h2 id="安装jekyll时遇到的问题">安装jekyll时遇到的问题</h2>
+</div>
+    <div class="artical-card-catagory">
+      分类
+    </div>
+  </li><li class="artical-card col-lg-3"><span class="post-meta">Jan 4, 2022</span>
+    <div class="artical-card-title">
+      <a class="post-link" href="/jekyll/update/2022/01/04/%E6%B5%8B%E8%AF%95%E7%9A%841%E7%9A%84%E5%89%AF%E6%9C%AC7.html">
+        测试!
+      </a>
+    </div>
+    <div class="three-line-ellipsis artical-card-intro"><h2 id="安装jekyll时遇到的问题">安装jekyll时遇到的问题</h2>
+</div>
+    <div class="artical-card-catagory">
+      分类
+    </div>
+  </li><li class="artical-card col-lg-3"><span class="post-meta">Jan 4, 2022</span>
+    <div class="artical-card-title">
+      <a class="post-link" href="/jekyll/update/2022/01/04/%E6%B5%8B%E8%AF%95%E7%9A%841%E7%9A%84%E5%89%AF%E6%9C%AC6.html">
+        测试!
+      </a>
+    </div>
+    <div class="three-line-ellipsis artical-card-intro"><h2 id="安装jekyll时遇到的问题">安装jekyll时遇到的问题</h2>
+</div>
+    <div class="artical-card-catagory">
+      分类
+    </div>
+  </li><li class="artical-card col-lg-3"><span class="post-meta">Jan 4, 2022</span>
+    <div class="artical-card-title">
+      <a class="post-link" href="/jekyll/update/2022/01/04/%E6%B5%8B%E8%AF%95%E7%9A%841%E7%9A%84%E5%89%AF%E6%9C%AC5.html">
+        测试!
+      </a>
+    </div>
+    <div class="three-line-ellipsis artical-card-intro"><h2 id="安装jekyll时遇到的问题">安装jekyll时遇到的问题</h2>
+</div>
+    <div class="artical-card-catagory">
+      分类
+    </div>
+  </li><li class="artical-card col-lg-3"><span class="post-meta">Jan 4, 2022</span>
+    <div class="artical-card-title">
+      <a class="post-link" href="/jekyll/update/2022/01/04/%E6%B5%8B%E8%AF%95%E7%9A%841%E7%9A%84%E5%89%AF%E6%9C%AC4.html">
+        测试!
+      </a>
+    </div>
+    <div class="three-line-ellipsis artical-card-intro"><h2 id="安装jekyll时遇到的问题">安装jekyll时遇到的问题</h2>
+</div>
+    <div class="artical-card-catagory">
+      分类
+    </div>
+  </li><li class="artical-card col-lg-3"><span class="post-meta">Jan 4, 2022</span>
+    <div class="artical-card-title">
+      <a class="post-link" href="/jekyll/update/2022/01/04/%E6%B5%8B%E8%AF%95%E7%9A%841%E7%9A%84%E5%89%AF%E6%9C%AC3.html">
+        测试!
+      </a>
+    </div>
+    <div class="three-line-ellipsis artical-card-intro"><h2 id="安装jekyll时遇到的问题">安装jekyll时遇到的问题</h2>
+</div>
+    <div class="artical-card-catagory">
+      分类
+    </div>
+  </li><li class="artical-card col-lg-3"><span class="post-meta">Jan 4, 2022</span>
+    <div class="artical-card-title">
+      <a class="post-link" href="/jekyll/update/2022/01/04/%E6%B5%8B%E8%AF%95%E7%9A%841%E7%9A%84%E5%89%AF%E6%9C%AC24.html">
+        测试!
+      </a>
+    </div>
+    <div class="three-line-ellipsis artical-card-intro"><h2 id="安装jekyll时遇到的问题">安装jekyll时遇到的问题</h2>
+</div>
+    <div class="artical-card-catagory">
+      分类
+    </div>
+  </li><li class="artical-card col-lg-3"><span class="post-meta">Jan 4, 2022</span>
+    <div class="artical-card-title">
+      <a class="post-link" href="/jekyll/update/2022/01/04/%E6%B5%8B%E8%AF%95%E7%9A%841%E7%9A%84%E5%89%AF%E6%9C%AC23.html">
+        测试!
+      </a>
+    </div>
+    <div class="three-line-ellipsis artical-card-intro"><h2 id="安装jekyll时遇到的问题">安装jekyll时遇到的问题</h2>
+</div>
+    <div class="artical-card-catagory">
+      分类
+    </div>
+  </li><li class="artical-card col-lg-3"><span class="post-meta">Jan 4, 2022</span>
+    <div class="artical-card-title">
+      <a class="post-link" href="/jekyll/update/2022/01/04/%E6%B5%8B%E8%AF%95%E7%9A%841%E7%9A%84%E5%89%AF%E6%9C%AC22.html">
+        测试!
+      </a>
+    </div>
+    <div class="three-line-ellipsis artical-card-intro"><h2 id="安装jekyll时遇到的问题">安装jekyll时遇到的问题</h2>
+</div>
+    <div class="artical-card-catagory">
+      分类
+    </div>
+  </li><li class="artical-card col-lg-3"><span class="post-meta">Jan 4, 2022</span>
+    <div class="artical-card-title">
+      <a class="post-link" href="/jekyll/update/2022/01/04/%E6%B5%8B%E8%AF%95%E7%9A%841%E7%9A%84%E5%89%AF%E6%9C%AC21.html">
+        测试!
+      </a>
+    </div>
+    <div class="three-line-ellipsis artical-card-intro"><h2 id="安装jekyll时遇到的问题">安装jekyll时遇到的问题</h2>
+</div>
+    <div class="artical-card-catagory">
+      分类
+    </div>
+  </li><li class="artical-card col-lg-3"><span class="post-meta">Jan 4, 2022</span>
+    <div class="artical-card-title">
+      <a class="post-link" href="/jekyll/update/2022/01/04/%E6%B5%8B%E8%AF%95%E7%9A%841%E7%9A%84%E5%89%AF%E6%9C%AC20.html">
+        测试!
+      </a>
+    </div>
+    <div class="three-line-ellipsis artical-card-intro"><h2 id="安装jekyll时遇到的问题">安装jekyll时遇到的问题</h2>
+</div>
+    <div class="artical-card-catagory">
+      分类
+    </div>
+  </li><li class="artical-card col-lg-3"><span class="post-meta">Jan 4, 2022</span>
+    <div class="artical-card-title">
+      <a class="post-link" href="/jekyll/update/2022/01/04/%E6%B5%8B%E8%AF%95%E7%9A%841%E7%9A%84%E5%89%AF%E6%9C%AC2.html">
+        测试!
+      </a>
+    </div>
+    <div class="three-line-ellipsis artical-card-intro"><h2 id="安装jekyll时遇到的问题">安装jekyll时遇到的问题</h2>
+</div>
+    <div class="artical-card-catagory">
+      分类
+    </div>
+  </li><li class="artical-card col-lg-3"><span class="post-meta">Jan 4, 2022</span>
+    <div class="artical-card-title">
+      <a class="post-link" href="/jekyll/update/2022/01/04/%E6%B5%8B%E8%AF%95%E7%9A%841%E7%9A%84%E5%89%AF%E6%9C%AC19.html">
+        测试!
+      </a>
+    </div>
+    <div class="three-line-ellipsis artical-card-intro"><h2 id="安装jekyll时遇到的问题">安装jekyll时遇到的问题</h2>
+</div>
+    <div class="artical-card-catagory">
+      分类
+    </div>
+  </li><li class="artical-card col-lg-3"><span class="post-meta">Jan 4, 2022</span>
+    <div class="artical-card-title">
+      <a class="post-link" href="/jekyll/update/2022/01/04/%E6%B5%8B%E8%AF%95%E7%9A%841%E7%9A%84%E5%89%AF%E6%9C%AC18.html">
+        测试!
+      </a>
+    </div>
+    <div class="three-line-ellipsis artical-card-intro"><h2 id="安装jekyll时遇到的问题">安装jekyll时遇到的问题</h2>
+</div>
+    <div class="artical-card-catagory">
+      分类
+    </div>
+  </li><li class="artical-card col-lg-3"><span class="post-meta">Jan 4, 2022</span>
+    <div class="artical-card-title">
+      <a class="post-link" href="/jekyll/update/2022/01/04/%E6%B5%8B%E8%AF%95%E7%9A%841%E7%9A%84%E5%89%AF%E6%9C%AC17.html">
+        测试!
+      </a>
+    </div>
+    <div class="three-line-ellipsis artical-card-intro"><h2 id="安装jekyll时遇到的问题">安装jekyll时遇到的问题</h2>
+</div>
+    <div class="artical-card-catagory">
+      分类
+    </div>
+  </li><li class="artical-card col-lg-3"><span class="post-meta">Jan 4, 2022</span>
+    <div class="artical-card-title">
+      <a class="post-link" href="/jekyll/update/2022/01/04/%E6%B5%8B%E8%AF%95%E7%9A%841%E7%9A%84%E5%89%AF%E6%9C%AC16.html">
+        测试!
+      </a>
+    </div>
+    <div class="three-line-ellipsis artical-card-intro"><h2 id="安装jekyll时遇到的问题">安装jekyll时遇到的问题</h2>
+</div>
+    <div class="artical-card-catagory">
+      分类
+    </div>
+  </li><li class="artical-card col-lg-3"><span class="post-meta">Jan 4, 2022</span>
+    <div class="artical-card-title">
+      <a class="post-link" href="/jekyll/update/2022/01/04/%E6%B5%8B%E8%AF%95%E7%9A%841%E7%9A%84%E5%89%AF%E6%9C%AC15.html">
+        测试!
+      </a>
+    </div>
+    <div class="three-line-ellipsis artical-card-intro"><h2 id="安装jekyll时遇到的问题">安装jekyll时遇到的问题</h2>
+</div>
+    <div class="artical-card-catagory">
+      分类
+    </div>
+  </li><li class="artical-card col-lg-3"><span class="post-meta">Jan 4, 2022</span>
+    <div class="artical-card-title">
+      <a class="post-link" href="/jekyll/update/2022/01/04/%E6%B5%8B%E8%AF%95%E7%9A%841%E7%9A%84%E5%89%AF%E6%9C%AC14.html">
+        测试!
+      </a>
+    </div>
+    <div class="three-line-ellipsis artical-card-intro"><h2 id="安装jekyll时遇到的问题">安装jekyll时遇到的问题</h2>
+</div>
+    <div class="artical-card-catagory">
+      分类
+    </div>
+  </li><li class="artical-card col-lg-3"><span class="post-meta">Jan 4, 2022</span>
+    <div class="artical-card-title">
+      <a class="post-link" href="/jekyll/update/2022/01/04/%E6%B5%8B%E8%AF%95%E7%9A%841%E7%9A%84%E5%89%AF%E6%9C%AC13.html">
+        测试!
+      </a>
+    </div>
+    <div class="three-line-ellipsis artical-card-intro"><h2 id="安装jekyll时遇到的问题">安装jekyll时遇到的问题</h2>
+</div>
+    <div class="artical-card-catagory">
+      分类
+    </div>
+  </li><li class="artical-card col-lg-3"><span class="post-meta">Jan 4, 2022</span>
+    <div class="artical-card-title">
+      <a class="post-link" href="/jekyll/update/2022/01/04/%E6%B5%8B%E8%AF%95%E7%9A%841%E7%9A%84%E5%89%AF%E6%9C%AC12.html">
+        测试!
+      </a>
+    </div>
+    <div class="three-line-ellipsis artical-card-intro"><h2 id="安装jekyll时遇到的问题">安装jekyll时遇到的问题</h2>
+</div>
+    <div class="artical-card-catagory">
+      分类
+    </div>
+  </li><li class="artical-card col-lg-3"><span class="post-meta">Jan 4, 2022</span>
+    <div class="artical-card-title">
+      <a class="post-link" href="/jekyll/update/2022/01/04/%E6%B5%8B%E8%AF%95%E7%9A%841%E7%9A%84%E5%89%AF%E6%9C%AC11.html">
+        测试!
+      </a>
+    </div>
+    <div class="three-line-ellipsis artical-card-intro"><h2 id="安装jekyll时遇到的问题">安装jekyll时遇到的问题</h2>
+</div>
+    <div class="artical-card-catagory">
+      分类
+    </div>
+  </li><li class="artical-card col-lg-3"><span class="post-meta">Jan 4, 2022</span>
+    <div class="artical-card-title">
+      <a class="post-link" href="/jekyll/update/2022/01/04/%E6%B5%8B%E8%AF%95%E7%9A%841%E7%9A%84%E5%89%AF%E6%9C%AC10.html">
+        测试!
+      </a>
+    </div>
+    <div class="three-line-ellipsis artical-card-intro"><h2 id="安装jekyll时遇到的问题">安装jekyll时遇到的问题</h2>
+</div>
+    <div class="artical-card-catagory">
+      分类
+    </div>
+  </li><li class="artical-card col-lg-3"><span class="post-meta">Jan 4, 2022</span>
+    <div class="artical-card-title">
+      <a class="post-link" href="/jekyll/update/2022/01/04/%E6%B5%8B%E8%AF%95%E7%9A%841%E7%9A%84%E5%89%AF%E6%9C%AC.html">
+        测试!
+      </a>
+    </div>
+    <div class="three-line-ellipsis artical-card-intro"><h2 id="安装jekyll时遇到的问题">安装jekyll时遇到的问题</h2>
+</div>
+    <div class="artical-card-catagory">
+      分类
+    </div>
+  </li><li class="artical-card col-lg-3"><span class="post-meta">Jan 4, 2022</span>
+    <div class="artical-card-title">
+      <a class="post-link" href="/jekyll/update/2022/01/04/%E6%B5%8B%E8%AF%95%E7%9A%841.html">
+        测试!
+      </a>
+    </div>
+    <div class="three-line-ellipsis artical-card-intro"><h2 id="安装jekyll时遇到的问题">安装jekyll时遇到的问题</h2>
+</div>
+    <div class="artical-card-catagory">
+      分类
+    </div>
+  </li><li class="artical-card col-lg-3"><span class="post-meta">Jan 4, 2022</span>
     <div class="artical-card-title">
       <a class="post-link" href="/jekyll/update/2022/01/04/%E6%B5%8B%E8%AF%95.html">
         测试!
@@ -96,6 +404,7 @@
   }
   
 </script>
+      </div>
     </main><footer class="site-footer h-card" id="footer" style="padding: 20px;">
   <data class="u-url" href="/"></data>
 
