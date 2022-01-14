@@ -1,5 +1,17 @@
 @charset "utf-8";
 
+.loading{
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	background-color: rgba(3, 101, 100, 0.95);
+	z-index: 99999;
+}
+.loading-out{
+	transition: all .5s linear;
+	opacity:0;
+	z-index: -100;
+}
 
 .container{
 	text-align: center;
