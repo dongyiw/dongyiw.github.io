@@ -68,6 +68,7 @@ window.onload = function() {
          case 'qq': {
             dialogTitle = '禾肠的企鹅'
             dialogContent = '1136192942'
+            break
          }
      }
      dialogTitleElement.innerHTML = dialogTitle
