@@ -23,6 +23,17 @@ window.onload = function() {
         },
         "react": { "opacityDefault": 0.6, "opacityOnHover": 0.1 } 
     });
+    initPageContent()
+}
+/**
+ * 初始化内容大小
+*/
+initPageContent = function(){
+    var headerHeight = document.getElementById('header').offsetHeight
+    var footerHeight = document.getElementById('footer').offsetHeight
+    var pagecontent = document.getElementById('pageContent')
+    var bodyHeight = document.body.clientHeight
+    pagecontent.style.minHeight = bodyHeight - headerHeight - footerHeight + 'px'
 }
 /**
      * 手机端添加点击出现菜单
@@ -62,7 +73,7 @@ window.onload = function() {
      switch(title){
          case 'wechat': {
             dialogTitle = '禾肠的微信'
-            dialogContent = '<img style="width: 80%;margin-left: 10%;" src="/assets/wechat.jpg" />'
+            dialogContent = '<img style="width: 80%;margin-left: 10%;" src="/images/wechat.jpg" />'
             break
          }
          case 'qq': {
